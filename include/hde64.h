@@ -19,7 +19,7 @@
  * and change next line to:
  *   #include "pstdint.h"
  */
-#include "kstdint.h"
+#include <stdint.h>
 
 #define F_MODRM         0x00000001
 #define F_SIB           0x00000002
