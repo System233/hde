@@ -8,6 +8,7 @@ add_library(hde OBJECT
     src/hde64.c
     src/table32.h
     src/table64.h)
+target_include_directories(hde PUBLIC include)
     
 add_executable(hde_example examples/example.c)
 target_link_libraries(hde_example hde)

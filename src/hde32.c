@@ -7,7 +7,7 @@
 
 #include <string.h>
 
-#include "../include/hde32.h"
+#include "hde32.h"
 #include "table32.h"
 
 

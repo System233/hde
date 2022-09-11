@@ -7,7 +7,7 @@
 
 #include <string.h>
 
-#include "../include/hde64.h"
+#include "hde64.h"
 #include "table64.h"
 
 unsigned int hde64_disasm(const void *code, hde64s *hs)
